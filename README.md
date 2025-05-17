@@ -1,8 +1,9 @@
-*Car Brands and Models Management System*
+**Car Brands and Models Management System**
 
-This Python project provides a console-based system to manage car brands and their respective models. It simulates a linked list structure where each brand can have multiple car models associated with it.
+This Python project provides a console-based system to manage car brands and their respective models.
+It simulates a linked list structure where each brand can have multiple car models associated with it.
 
-Features
+**Features**
 
 Add and remove car brands.
 
@@ -16,11 +17,11 @@ Search for a brand or a specific model within a brand.
 
 Save to and read data from a file (basic implementation).
 
-Structure Overview
+**Structure Overview**
 
-Classes:
-
-Brand
+*Classes:*
+ 
+- Brand
 
 Represents a car brand.
 
@@ -28,7 +29,7 @@ Has links to the next and previous brand.
 
 Holds a pointer to the head of its Model linked list.
 
-Model
+- Model
 
 Represents a specific car model.
 
@@ -36,7 +37,7 @@ Stores the model name, year, and price.
 
 Has a pointer to the next model in the list.
 
-List
+- List
 
 Acts as a double linked list container for all Brand nodes.
 
@@ -46,7 +47,7 @@ Add/remove/search/display brands.
 
 Add/remove/search/display models of a specific brand.
 
-Main Idea:
+**Main Idea:**
 
 Using Pointer as singly linked list with a doubly linked list.
 
@@ -61,21 +62,21 @@ Brand("Toyota") --> point --> Model("Corolla") --> Model("Camry") --> ...
 This structure ensures that models are organized under their respective brands and prevents mixing data between different brands.
 
 
-Utility:
+**Utility:**
 
 Interactive text menu for user input.
 
 Simple save/read functionality using a .txt file.
 
-Requirements
+**Requirements**
 
 Python 3.x
 
-Run the App
+**Run the App**
 
 python CARS_DS.py
 
-Author
+**Author**
 
 Developed by [Maysam Baradiya]
 
